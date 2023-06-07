@@ -1,5 +1,6 @@
 # Kafka Tracing via zipkin
 Detailed blog on medium: https://medium.com/data-rocks/kafka-record-tracing-379ed2b0af51
+
 Run `docker-compose up` to start zipkin - elasticsearch - kafka - zookeeper
 
 Auto topic creation is set to true: run in order Producer, Consumer and Streaming to create topics and first trace.
